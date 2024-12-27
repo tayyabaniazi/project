@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmI9-gkG1tAkwuqmSvyAypo6qQHiVc1mfLfw&s);
+    background-size: cover; /* Ensure the background covers the viewport */
+    display: flex; /* Use Flexbox for body */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margins */
+}
+
+.puzzle-section {
+    display: flex;
+    justify-content: space-between; /* Equal space between boxes */
+    align-items: center; /* Align items vertically in the section */
+    background-color: lightcyan;
+    width: 80%; /* Define a fixed width for the row */
+    text-align: center;
+    padding: 20px; /* Padding for some spacing */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.box {
+    height: 300px;
+    width: 23%; /* All boxes are 23% of the parent width */
+    background-color: azure;
+    padding: 20px 0px 15px;
+    margin: 0; /* No margin required as space is handled by `space-between` */
+}
+
+.box-img {
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+    margin: auto; /* Center the image within the box */
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}

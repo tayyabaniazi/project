@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.puzzle-section{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    background-color:lightcyan;
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 23%;
+    background-color: azure;
+    padding: 20px 0px 15px;
+     margin-top:15px ;
+     
+}
+h3{
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+    
+}
+
+.box-img{
+    background-size: cover;
+height: 240px ;
+width: 240px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

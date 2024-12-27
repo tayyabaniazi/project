@@ -1,0 +1,179 @@
+
+
+/* Header Section CSS Code  */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    width: 80px;
+    height: 40px;
+}
+
+.navbar .search-bar {
+    flex-grow: 1;
+    display: flex;
+    margin: 0 20px;
+}
+
+.navbar .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.navbar .search-bar button {
+    padding: 8px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin: 0 10px;
+}
+
+.navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar .auth-buttons button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar .auth-buttons button a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* End of Header Section */
+.puzzle-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:lightcyan;
+    flex-wrap: wrap;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 23%;
+    background-color: azure;
+    padding: 20px 0px 15px;
+     margin-top:15px ;
+     
+}
+h3{
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+    
+}
+
+.box-img{
+background-size: cover;
+height: 240px ;
+width: 240px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px;
+}
+
+.foot-panel1 {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+}
+
+.foot-panel1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.foot-panel2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.foot-panel3 .logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #febd69;
+}
